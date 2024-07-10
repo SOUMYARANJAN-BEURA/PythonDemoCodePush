@@ -1,0 +1,50 @@
+import random
+
+
+print("This is a Cube Roll It :: ")
+
+
+x = "y" or "n"
+while x == "y" :
+    N = random.randint(1, 6)
+
+
+    if N == 1:
+       print("__________")
+       print("|        |")
+       print("|   0    |")
+       print("|        |")
+       print("----------")
+    if N == 2:
+       print("__________")
+       print("|        |")
+       print("| 0    0 |")
+       print("|        |")
+       print("----------")
+    if N == 3:
+       print("___________")
+       print("|    0    |")
+       print("|    0    |")
+       print("|    0    |")
+       print("-----------")
+    if N == 4:
+       print("__________")
+       print("| 0    0 |")
+       print("|        |")
+       print("| 0    0 |")
+       print("----------")
+    if N == 5:
+       print("___________")
+       print("| 0     0 |")
+       print("|    0    |")
+       print("| 0     0 |")
+       print("-----------")
+    if N == 6:
+       print("_________")
+       print("| 0   0 |")
+       print("| 0   0 |")
+       print("| 0   0 |")
+       print("---------")
+
+    x = input("Press y to roll Again : ")
+
